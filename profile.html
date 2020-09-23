@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="КорпУниверситет">
+    <meta name="apple-mobile-web-app-title" content="КорпУниверситет">
+    <meta name="theme-color" content="#61539E">
+    <meta name="msapplication-navbutton-color" content="#61539E">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="ЛенПолиграфМаш"  />
+    <meta name="application-name" content="Корпоративный университет" />
+    <meta name="keywords" content="Лен, полиграф, маш, университет" />
+    <meta name="author" content="IceSlam">
+    <title id="page-title">Главная &mdash; Корпоративный университет ЛенПолиграфМаш</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="/assets/css/mdb.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css?" rel="stylesheet">
+    <link href="/assets/css/light.css?" rel="stylesheet">
+    <link href="/assets/css/media.css?" rel="stylesheet">
+  </head>
+
+  <body id="body" class="is-page is-index">
+
+    <div id="cookie-msg" class="is-cookie-message container-fluid ">
+      <div class="row">
+        <div class="col-md-11">
+          Мы используем файлы cookie, чтобы анализировать трафик, подбирать для вас подходящий контент и рекламу, а также дать вам возможность делиться информацией в социальных сетях. Мы передаем информацию о ваших действиях на сайте партнерам Google: социальным сетям и компаниям, занимающимся рекламой и веб-аналитикой. Наши партнеры могут комбинировать эти сведения с предоставленной вами информацией, а также данными, которые они получили при использовании вами их сервисов
+        </div>
+        <div class="col-md-1" style="align-items: center;display: flex;justify-content:center">
+          <button id="cookie-accept-btn" type="button" class="btn btn-primary" style="text-transform:none;padding-left:8px;padding-right:8px;">Принять</button>
+        </div>
+      </div>
+    </div>
+    <div class="btn-group dropup">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="dropdown"
+        aria-expanded="false"
+         style="position: fixed;bottom: 5rem;right: 1rem;-webkit-box-shadow: none;box-shadow: none;width: 40px;height: 40px;padding: 8px;border-radius:50%;"
+      >
+        <i class="fas fa-file-alt fa-2x">  </i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./">Главная</a></li>
+        <li><a class="dropdown-item" href="./news.php">Новости</a></li>
+        <li><a class="dropdown-item" href="./contacts.php">Контакты</a></li>
+        <li><a class="dropdown-item" href="./auth.php">Авторизация</a></li>
+        <li><a class="dropdown-item" href="./lk.php">Личный кабинет</a></li>
+        <li><a class="dropdown-item" href="./infoedu.php">Информационно-образовательный блок</a></li>
+      </ul>
+    </div>
+    <button
+      id="is-color-scheme"
+      style="position: fixed;bottom: 1rem;right: 1rem;-webkit-box-shadow: none;box-shadow: none;width: 40px;height: 40px;padding: 8px;border-radius:50%;"
+      class="btn"
+      type="button"
+    >
+      <i class="fas fa-palette fa-2x"></i>
+    </button>
+
+    <button
+      id="is-color-scheme"
+      style="position: fixed;bottom: 9rem;right: 1rem;-webkit-box-shadow: none;box-shadow: none;width: 40px;height: 40px;padding: 8px;border-radius:50%;"
+      class="btn"
+      type="button"
+      onclick="history.back();return false;"
+    >
+      <i class="fas fa-chevron-left fa-2x"></i>
+    </button>
+
+    <header id="header" class="is-header">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark is-navbar">
+        <div class="container-fluid">
+          <a href="" onclick="history.back();return false;" class="btn is-btn__back">
+            <i class="fas fa-arrow-left fa-2x"></i>
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="/assets/img/lpm_logo.svg" alt="Корпоративный университет ЛенПолиграфМаш" class="img-fluid is-navbar__logo">
+          </a>
+          <button
+            id="is-color-scheme"
+            style=""
+            class="btn is-btn__theme"
+            type="button"
+          >
+            <i class="fas fa-palette fa-2x"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <menu class="navbar-nav mx-auto mb-2 mb-lg-0 is-menu">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Информационно-образовательный блок</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Новости</a>
+              </li>
+            </menu>
+            <form class="input-group w-auto">
+              <div class="is-navbar__user-block">
+                <p class="is-navbar__ueser-name">
+                  Первухина Анна Алексеевна
+                </p>
+                <p class="is-navbar__ueser-position">
+                  специалист по персоналу
+                </p>
+                <p class="is-navbar__ueser-company">
+                  ООО “ХОЛДИНГ ЛЕНПОЛИГРАФМАШ”
+                </p>
+              </div>
+              <div class="input-group is-navbar__search-form mt-3">
+                <button
+                  class="btn is-navbar__search-form__btn"
+                  type="button"
+                  id="button-addon1"
+                  data-ripple-color="dark"
+                >
+                  <img src="/assets/img/search_icon.svg" alt="Поиск по курсам" class="img-fluid">
+                </button>
+                <input
+                  type="text"
+                  class="form-control is-navbar__search-form__input"
+                  placeholder="Поиск по сайту"
+                  aria-label="Поиск по сайту"
+                  aria-describedby="button-addon1"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="is-navbar__line-bottom"></div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="is-mobile">
+      <div class="navbar-nav mx-auto is-mobile__menu">
+        <a href="/" class="is-mobile__menu-link home">
+          <img src="/assets/img/home-icon.svg" alt="Домой">
+        </a>
+        <a href="/infoanalit.html" class="is-mobile__menu-link infoanalit">
+          <img src="/assets/img/infoanalit-icon.svg" alt="Информационно-аналитический блок">
+        </a>
+        <a href="/news.html" class="is-mobile__menu-link news">
+          <img src="/assets/img/news-icon.svg" alt="Новости">
+        </a>
+        <a href="/contacts.html" class="is-mobile__menu-link contacts">
+          <img src="/assets/img/contacts-icon.svg" alt="Контакты">
+        </a>
+        <a href="/profile.html" class="is-mobile__menu-link profile active">
+          <img src="/assets/img/profile-icon.svg" alt="Личный кабинет">
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript" src="/assets/js/mdb.min.js"></script>
+    <script src="/assets/js/onerequest-modules.min.js" charset="utf-8"></script>
+  </body>
+
+</html>

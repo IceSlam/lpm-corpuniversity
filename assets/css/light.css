@@ -1,0 +1,191 @@
+/* System variables */
+
+.is-page.light .is-cookie-message {
+  color: #f3f3f3;
+  background: #2B2E33;
+  transition: all .625s;
+}
+
+.is-page.light #is-color-scheme {
+  background: #2B2E33 !important;
+  color: #f3f3f3;
+  transition: all .625s;
+}
+
+.is-page.light {
+  background-color: #f3f3f3;
+}
+
+.is-page.light .is-main {
+  background-color: #f3f3f3 ;
+  color: #2B2E33 !important;
+}
+
+.is-page.light .is-sidebar {
+  background: #f3f3f3 !important;
+  color: #2B2E33 !important;
+  -webkit-box-shadow: 0px 15px 30px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 15px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+.is-page.light .is-mobile {
+  background: #f3f3f3 !important;
+}
+
+.is-page.light .is-mobile__menu .is-mobile__menu-link {
+  filter: invert(25%);
+  opacity: 1;
+}
+
+.is-page.light .is-mobile__menu .is-mobile__menu-link.active {
+  filter: invert(100%);
+}
+
+.is-page.light section h2,
+.is-page.light section h3,
+.is-page.light section h5,
+.is-page.light section p {
+  color: #2B2E33 !important;
+  transition: all .625s;
+}
+
+.is-page.light .is-navbar__line-bottom {
+  box-shadow: 0px 4px 15px 10px rgba(0,0,0, 0.05);
+  transition: all .625s;
+}
+
+.is-page.light .is-footer .navbar-nav .nav-item:before {
+  filter: invert(100%);
+}
+
+.is-page.light .is-footer h2,
+.is-page.light .is-footer a,
+.is-page.light .is-footer p {
+  color: #2B2E33 !important;
+  transition: all .625s !important;
+}
+
+.is-page.light .is-footer a:hover {
+  color: #7355A6 !important;
+  transition: all .625s !important;
+}
+
+.is-page.light .is-sidebar__settings {
+  background: radial-gradient(100% 1849% at 0% 100%, #BB81AB 22.92%, #5B2450 100%);
+}
+
+
+/* Media Queries */
+
+
+
+@media screen and (max-width:575px) {
+  .is-page.light {
+    background: url(../img/header_bg_mobile_light.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-attachment: fixed;
+    transition: all .625s;
+  }
+
+  .is-page.light .is-header {
+    background: url(../img/header_bg_mobile_light.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: all .625s;
+  }
+  .is-page.light #is-color-scheme.is-color-toggle {
+    display: none !important;
+    background: transparent !important;
+    color: #f3f3f3 !important;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+  .is-page.light #is-color-scheme.is-color-toggle {
+    display: none !important;
+    background: transparent !important;
+    color: #f3f3f3 !important;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .is-page.light #is-color-scheme.is-color-toggle {
+    display: none !important;
+    background: transparent !important;
+    color: #f3f3f3 !important;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+  .is-page.light #is-color-scheme.is-color-toggle {
+    display: none !important;
+    background: transparent !important;
+    color: #f3f3f3 !important;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+  .is-page.light .is-navbar .navbar-brand {
+    background: url(../img/lpm_logo_color_dark.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .is-page.light .is-navbar .navbar-brand img {
+    opacity: 0;
+  }
+
+  .is-page.light .navbar-brand img {
+    filter: invert(100%);
+  }
+
+  .is-page.light .is-menu a,
+  .is-page.light .is-navbar p {
+    color: #2B2E33 !important;
+  }
+
+  .is-page.light .is-menu a.active {
+    color: #2B2E33;
+  }
+
+  .is-page.light .is-navbar .is-navbar__search-form {
+    background: rgba(0,0,0, 0.25);
+  }
+}
+
+@media screen and (min-width:1400px) {
+  .is-page.light .is-navbar .navbar-brand {
+    background: url(../img/lpm_logo_color_dark.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .is-page.light .is-navbar .navbar-brand img {
+    opacity: 0;
+  }
+
+  .is-page.light .navbar-brand img {
+    filter: invert(100%);
+  }
+
+  .is-page.light .is-menu a,
+  .is-page.light .is-navbar p {
+    color: #2B2E33 !important;
+  }
+
+  .is-page.light .is-menu a.active {
+    color: #2B2E33;
+  }
+
+  .is-page.light .is-navbar .is-navbar__search-form {
+    background: rgba(0,0,0, 0.25);
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Корпоративный университет ЛенПолиграфМаш",
+  "short_name": "КорпУниверситет",
+  "lang": "ru-RU",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#7355A6",
+  "background_color": "#7355A6",
+  "icons": [
+    {
+      "src": "/assets/img/lpm_icon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
