@@ -571,3 +571,92 @@
 .is-courses .is-cources-info__list.items .card img {
   height: 127px;
 }
+
+/* Courses details page */
+
+.is-courses-details .is-courses-details-info__list.title .is-h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #7355A6;
+}
+
+.is-courses-details .is-courses-details-info__list.title .is-h4 .is-sub {
+  font-size: 32px;
+}
+
+.is-courses-details .is-courses-details__search-form {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 32px;
+}
+
+.is-courses-details .is-courses-details__search-form__btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.is-courses-details .is-courses-details__search-form__input {
+  background-color: transparent;
+  border: 0;
+  border-radius: 32px !important;
+  color: #Fff;
+}
+
+.is-courses-details .is-courses-details__search-form__input::placeholder {
+  color: rgba(255,255,255,.5);
+}
+
+.is-courses-details .is-courses-details__list-card .col-md-8,
+.is-courses-details .is-courses-details__list-card .btn-bg {
+  background: linear-gradient(270deg, rgba(60, 120, 192, 0.5) 0%, rgba(115, 85, 166, 0.5) 100%);
+  border-radius: 50px;
+}
+
+.is-courses-details .is-courses-details__list-card .btn-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.is-courses-details .is-courses-details__list-card p {
+  margin-bottom: 0;
+}
+
+.is-courses-details .is-courses-details__list-card .is-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+.is-courses-details .is-courses-details__list-card .is-start {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+.is-courses-details .is-courses-details__list-card .is-start .is-sub {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.is-courses-details .is-courses-details__list-card .is-text-block {
+  width: 100%;
+}
+
+.is-courses-details .is-courses-details__list-card .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 60px;
+}

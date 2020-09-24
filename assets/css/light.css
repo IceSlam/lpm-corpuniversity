@@ -158,6 +158,10 @@
   color: #2B2E33;
 }
 
+.is-page.light.is-courses-details .is-courses-details__search-form {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 
 /* Media Queries */
 
