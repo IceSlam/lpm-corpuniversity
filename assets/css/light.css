@@ -74,6 +74,35 @@
   background: radial-gradient(100% 1849% at 0% 100%, #BB81AB 22.92%, #5B2450 100%);
 }
 
+.is-page.light .is-sidebar .is-sidebar__tab-content__profile-menu__btn {
+  color: #2B2E33;
+}
+
+.is-page.light .is-sidebar .is-sidebar__btn-service.close {
+  background: #BC2225 !important;
+}
+
+.is-page.light .is-sidebar .is-sidebar__btn-service.close svg path {
+  stroke: #fff;
+}
+
+.is-page.light .is-sidebar .is-sidebar__btn-service {
+  background: #f3f3f3 !important;
+}
+
+.is-page.light .is-sidebar .is-sidebar__btn-service svg path {
+  stroke: #2B2E33;
+}
+
+.is-page.light .is-sidebar .is-sidebar__tab-content__profile-menu__btn svg circle,
+.is-page.light .is-sidebar .is-sidebar__tab-content__profile-menu__btn svg path {
+  stroke: #2B2E33;
+}
+
+.is-page.light .is-sidebar .is-sidebar__tab-content__notifications-item .notification-link {
+  color: #2B2E33 !important;
+}
+
 
 /* Media Queries */
 
