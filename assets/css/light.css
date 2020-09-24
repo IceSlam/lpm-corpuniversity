@@ -125,14 +125,33 @@
     background-size: cover;
     transition: all .625s;
   }
+
   .is-page.light #is-color-scheme.is-color-toggle {
     display: none !important;
     background: transparent !important;
     color: #f3f3f3 !important;
   }
+
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
+
+  .is-page.light {
+      background: url(../img/header_bg_mobile_light.svg);
+      background-repeat: no-repeat;
+      -webkit-background-size: contain;
+      background-size: contain;
+      background-attachment: fixed;
+      transition: all .625s;
+  }
+
+  .is-page.light .is-header {
+    background: url(../img/header_bg_mobile_light.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: all .625s;
+  }
 
   .is-page.light #is-color-scheme.is-color-toggle {
     display: none !important;
@@ -143,6 +162,23 @@
 
 @media screen and (min-width:768px) and (max-width:991px) {
 
+  .is-page.light {
+      background: url(../img/header_bg_mobile_light.svg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-attachment: fixed;
+      transition: all .625s;
+  }
+
+  .is-page.light .is-header {
+    background: url(../img/header_bg_mobile_light.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: all .625s;
+  }
+
   .is-page.light #is-color-scheme.is-color-toggle {
     display: none !important;
     background: transparent !important;
@@ -152,9 +188,36 @@
 
 @media screen and (min-width:992px) and (max-width:1199px) {
 
+
+    .is-page.light .is-navbar .navbar-brand {
+      background: url(../img/lpm_logo_color_dark.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .is-page.light .is-navbar .navbar-brand img {
+      opacity: 0;
+    }
+
+    .is-page.light .navbar-brand img {
+      filter: invert(100%);
+    }
+
+    .is-page.light .is-menu a,
+    .is-page.light .is-navbar p {
+      color: #2B2E33 !important;
+    }
+
+    .is-page.light .is-menu a.active {
+      color: #2B2E33;
+    }
+
+    .is-page.light .is-navbar .is-navbar__search-form {
+      background: rgba(0,0,0, 0.25);
+    }
+
   .is-page.light #is-color-scheme.is-color-toggle {
-    display: none !important;
-    background: transparent !important;
     color: #f3f3f3 !important;
   }
 }
