@@ -139,8 +139,8 @@
   .is-page.light {
       background: url(../img/header_bg_mobile_light.svg);
       background-repeat: no-repeat;
-      -webkit-background-size: contain;
-      background-size: contain;
+      -webkit-background-size: cover;
+      background-size: cover;
       background-attachment: fixed;
       transition: all .625s;
   }
