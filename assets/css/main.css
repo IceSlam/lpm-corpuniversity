@@ -463,3 +463,70 @@
   color: #7355A6;
   font-size: 12px;
 }
+
+/* Contacts page */
+
+.is-contacts .is-contacts-info .is-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.is-contacts .is-contacts-info .is-item svg {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.is-contacts .is-contacts-info .is-link {
+  margin-left: 2rem !important;
+  color: #fff;
+  transition: all .625s;
+}
+
+.is-contacts .is-contacts-info .is-link:hover {
+  color: #7355A6;
+  transition: all .625s;
+}
+
+.is-contacts .is-contacts-info .is-contacts-info__map {
+  border: 1px solid #fff;
+}
+
+.is-contacts .is-contacts-graffic {
+  margin-top: 5rem !important;
+}
+
+.is-contacts .is-contacts-graffic .is-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.is-contacts .is-contacts-graffic .is-graffic__row {
+  background: linear-gradient(90deg, #7355A6 0%, #7EACAE 103.51%);
+  border-radius: 16px;
+  padding: 1.5rem .25rem;
+}
+
+.is-contacts .is-graffic__row p {
+  margin-bottom: 0;
+}
+
+.is-contacts .is-graffic__row .is-text,
+.is-contacts .is-graffic__row .is-time,
+.is-contacts .is-graffic__row .is-break {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.is-contacts .is-graffic__row .is-time,
+.is-contacts .is-graffic__row .is-break {
+  font-weight: 600;
+}

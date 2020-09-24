@@ -133,6 +133,22 @@
   color: #f3f3f3 !important;
 }
 
+.is-page.light.is-contacts .is-contacts-info .is-link {
+  color: #2B2E33;
+  transition: all .625s;
+}
+
+.is-page.light.is-contacts .is-contacts-info .is-link:hover {
+  color: #7355A6;
+  transition: all .625s;
+}
+
+.is-page.light.is-contacts .is-contacts-info .is-item svg path,
+.is-page.light.is-contacts .is-contacts-info .is-item svg circle {
+  stroke: #2B2E33;
+  transition: all .625s;
+}
+
 
 /* Media Queries */
 
