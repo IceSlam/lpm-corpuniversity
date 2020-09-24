@@ -392,6 +392,15 @@
     color: #fff;
   }
 
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active {
+    color: #7355A6;
+  }
+
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg path,
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg circle {
+    stroke: #7355A6;
+  }
+
   .is-page .is-sidebar .is-sidebar__notification-close {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -479,7 +488,6 @@
 
   /* Contacts page */
 
-  
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -754,6 +762,15 @@
   .is-page .is-sidebar__settings button,
   .is-page .is-sidebar__settings a {
     color: #fff;
+  }
+
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active {
+    color: #7355A6;
+  }
+
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg path,
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg circle {
+    stroke: #7355A6;
   }
 
   .is-page .is-main {
@@ -1253,6 +1270,15 @@
     justify-content: center;
     align-items: center;
     filter: brightness(65%);
+  }
+
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active {
+    color: #7355A6;
+  }
+
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg path,
+  .is-page .is-sidebar .is-sidebar__tab-content__profile-menu .is-sidebar__tab-content__profile-menu__btn.active svg circle {
+    stroke: #7355A6;
   }
 
   .is-page .is-sidebar .is-sidebar__btn-service.active {

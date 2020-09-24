@@ -149,6 +149,15 @@
   transition: all .625s;
 }
 
+.is-page.light.is-courses .is-cources-info__list.items .card img {
+  filter: invert(100%);
+  transition: all .625s;
+}
+
+.is-page.light.is-courses .is-cources-info__list.items .card .is__title {
+  color: #2B2E33;
+}
+
 
 /* Media Queries */
 

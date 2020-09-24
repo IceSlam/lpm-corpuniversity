@@ -530,3 +530,44 @@
 .is-contacts .is-graffic__row .is-break {
   font-weight: 600;
 }
+
+/* Courses page */
+
+.is-courses .is-cources-info .is-h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.is-courses .is-cources-info__list.title .is-h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #7355A6;
+}
+
+.is-courses .is-cources-info__list.items {}
+
+.is-courses .is-cources-info__list.items .card {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 1.5rem;
+}
+
+.is-courses .is-cources-info__list.items .card .is__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.is-courses .is-cources-info__list.items .card img {
+  height: 127px;
+}
