@@ -134,23 +134,45 @@
       <section class="is-navs container-xl container-xxl">
         <div class="row">
           <div class="col-md-2">
-            <a href="#" class="btn is-news__navs-tab__selector active">
-              <svg class="is-news__navs-tab__selector-icon" width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13.4444 0.804688H1V14.0486H13.4444V0.804688Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M33.0001 0.804688H20.5557V14.0486H33.0001V0.804688Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M33.0001 21.6172H20.5557V34.8611H33.0001V21.6172Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13.4444 21.6172H1V34.8611H13.4444V21.6172Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </a>
-            <a href="#" class="btn is-news__navs-tab__selector">
-              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 17H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <rect x="1" y="23" width="32" height="4" rx="2" fill="white"/>
-                <path d="M1 1H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <rect x="1" y="7" width="32" height="4" rx="2" fill="white"/>
-                <path d="M1 33H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </a>
+            <ul class="nav nav-pills mb-3" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link btn is-news__navs-tab__selector  active"
+                  id="news-cards-tab"
+                  data-toggle="pill"
+                  href="#news-pills-cards-tab"
+                  role="tab"
+                  aria-controls="news-pills-cards-tab"
+                  aria-selected="true"
+                  >
+                  <svg class="is-news__navs-tab__selector-icon" width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.4444 0.804688H1V14.0486H13.4444V0.804688Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M33.0001 0.804688H20.5557V14.0486H33.0001V0.804688Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M33.0001 21.6172H20.5557V34.8611H33.0001V21.6172Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.4444 21.6172H1V34.8611H13.4444V21.6172Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  </a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link btn is-news__navs-tab__selector"
+                  id="news-list-tab"
+                  data-toggle="pill"
+                  href="#news-pills-list-tab"
+                  role="tab"
+                  aria-controls="news-pills-list-tab"
+                  aria-selected="false"
+                  >
+                  <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 17H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect x="1" y="23" width="32" height="4" rx="2" fill="white"/>
+                    <path d="M1 1H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect x="1" y="7" width="32" height="4" rx="2" fill="white"/>
+                    <path d="M1 33H33" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="offset-md-6 col-md-4">
             <div class="input-group is-news_navs-form mx-auto">
@@ -176,8 +198,270 @@
           </div>
         </div>
       </section>
-      <section class="is-content container-xl container-xxl">
-        2
+      <section class="is-content container-xl container-xxl mt-5">
+        <div class="tab-content" id="ex1-content">
+          <div
+            class="tab-pane fade show active"
+            id="news-pills-cards-tab"
+            role="tabpanel"
+            aria-labelledby="news-cards-tab"
+          >
+            <div class="row">
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3 mt-3">
+                <div class="card is-news__tab-card__card">
+                  <div class="is-news__tab-cards__card-img">
+                    <img src="./assets/img/news_card_img_test.png" class="img-fluid" alt="">
+                    <p class="is-news__tab-card__card-date">
+                      00.00.2020
+                    </p>
+                  </div>
+                  <p class="is-news__tab-card__card-title mt-3">
+                    Путин подписал Указ о продлении нерабочих дней
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="news-pills-list-tab" role="tabpanel" aria-labelledby="news-list-tab">
+            <div class="row">
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <div class="card is-news__tab-list__card">
+                  <div class="is-news__tab-list__card-header d-flex">
+                    <p class="is-date mr-3 d-flex align-items-center">
+                      00.00.2020
+                    </p>
+                    <p class="is-title">
+                      Путин подписал Указ о продлении нерабочих дней
+                    </p>
+                  </div>
+                  <p class="is-news__tab-list__card-content">
+                    Указ о мерах по обеспечению санитарно-эпидемиологического благополучия населения в связи с распространением коронавирусной инфекции Президент подписал Указ «О мерах по обеспечению санитарно-эпидемиологического благополучия населения на территории Российской Федерации в связи с распространением новой коронавирусной инфекции (COVID-19)».
+                  </p>
+                  <a href="#" class="is-news__tab-list__card-link">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
     </main>
