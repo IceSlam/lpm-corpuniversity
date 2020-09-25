@@ -173,6 +173,27 @@
   border-bottom: 1px solid #2B2E33;
 }
 
+.is-page.light.is-auth .is-auth-info__form-fields .input-group-text,
+.is-page.light.is-auth .is-auth-info__form-fields .is-forgot {
+  color: #2B2E33;
+  transition: all .625s;
+}
+
+.is-page.light.is-auth .is-auth-info__form-fields input.form-control {
+  border-bottom: 1px solid #2B2E33;
+  transition: all .625s;
+  color: #2B2E33;
+}
+
+.is-page.light.is-auth .is-auth-info__form-fields input.form-control::placeholder {
+  color: rgba(0,0,0,.5);
+}
+
+.is-page.light.is-auth .is-auth-btn {
+  background: #2B2E33;
+  color: #fff;
+}
+
 
 /* Media Queries */
 

@@ -727,3 +727,72 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+/* Authentification page */
+
+.is-auth .is-auth-info__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.is-auth .is-auth-info__form-fields .input-group-text {
+  width: 15%;
+  text-align: right;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  align-items: flex-end;
+  margin-bottom: 0;
+  color: #fff;
+  transition: all .625s;
+}
+
+.is-auth .is-auth-info__form-fields input.form-control {
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  background: transparent;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  outline-color: transparent !important;
+  transition: all .625s;
+}
+
+.is-auth .is-auth-info__form-fields input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.is-auth .is-auth-info__form-fields input.form-control::placeholder {
+  color: rgba(255,255,255,.5);
+}
+
+.is-auth .is-auth-info__form-fields .is-forgot {
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
+.is-auth .is-auth-btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 82px;
+  background: #fff;
+  margin: 0rem 2rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.is-auth .is-auth-btn.auth {
+  color: #7355A6;
+}

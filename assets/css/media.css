@@ -524,6 +524,21 @@
     margin: .25rem auto !important;
   }
 
+  /* Auth page */
+
+  .is-auth .is-auth-info__title {
+    font-size: 1.4rem;
+  }
+
+  .is-auth .is-auth__btns {
+    display: block !important;
+  }
+
+  .is-auth .is-auth-btn {
+    margin: 1rem auto;
+    display: block;
+  }
+
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {

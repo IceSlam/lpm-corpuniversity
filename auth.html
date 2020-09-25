@@ -134,10 +134,73 @@
       <div class="is-navbar__line-bottom container-xl container-xxl"></div>
     </header>
 
-    <main class="is-main mb-5">
+    <main class="is-main">
 
       <section class="is-auth-info container-xl container-xxl mb-5">
-
+        <h2 class="is-auth-info__title text-center mb-5">
+          Для просмотра материалов, пожалуйста, войдите или зарегистрируйтесь
+        </h2>
+        <div class="row is-auth-info__form-fields mt-5">
+          <div class="col-lg-8">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">
+                Логин
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="apervuhina"
+                aria-label="apervuhina"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="offset-lg-1 col-lg-3 d-flex justify-content-center align-items-center">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckChecked"
+                checked
+              />
+              <label class="form-check-label" for="flexCheckChecked">
+                Запомнить
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row is-auth-info__form-fields mt-5">
+          <div class="col-lg-8">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">
+                Пароль
+              </span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="***********"
+                aria-label="***********"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="offset-lg-1 col-lg-3 d-flex justify-content-center align-items-center">
+            <a href="#" class="btn is-forgot">
+              забыли пароль?
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="is-auth__btns col-md-12 d-flex justify-content-center">
+            <a href="#" class="btn is-auth-btn auth">
+              Войти
+            </a>
+            <a href="#" class="btn is-auth-btn reg">
+              Зарегистрироваться
+            </a>
+          </div>
+        </div>
       </section>
 
     </main>
