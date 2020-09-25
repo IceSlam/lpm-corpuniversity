@@ -503,6 +503,27 @@
     border-radius: 50px;
   }
 
+  /* Settings page */
+
+  .is-settings .is-settings-profile {
+    margin-top: 2rem;
+  }
+
+  .is-settings .is-settings-profile .input-group-text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .is-settings .is-settings__btn-save {
+    margin-bottom: 1.5rem !important;
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .is-settings .is-settings-cats .btn {
+    margin: .25rem auto !important;
+  }
+
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -979,8 +1000,6 @@
     max-width: 32px;
   }
 
-
-
   /* Courses details page */
 
   .is-courses-details .is-courses-details__list-card .col-md-4 {
@@ -996,6 +1015,27 @@
     line-height: 1rem;
     background: linear-gradient(270deg, rgba(60, 120, 192, 0.5) 0%, rgba(115, 85, 166, 0.5) 100%);
     border-radius: 50px;
+  }
+
+  /* Settings page */
+
+  .is-settings .is-settings-profile {
+    margin-top: 2rem;
+  }
+
+  .is-settings .is-settings-profile .input-group-text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .is-settings .is-settings__btn-save {
+    margin-bottom: 1.5rem !important;
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .is-settings .is-settings-cats .btn {
+    margin: .25rem auto !important;
   }
 }
 
@@ -1463,6 +1503,27 @@
 
   .is-index .is-navbar .is-btn__back {
     visibility: hidden !important;
+  }
+
+  /* Settings page */
+
+  .is-settings .is-settings-profile {
+    margin-top: 2rem;
+  }
+
+  .is-settings .is-settings-profile .input-group-text {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .is-settings .is-settings__btn-save {
+    margin-bottom: 1.5rem !important;
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .is-settings .is-settings-cats .btn {
+    margin: .25rem auto !important;
   }
 }
 

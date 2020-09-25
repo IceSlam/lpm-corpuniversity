@@ -18,17 +18,17 @@
     <meta name="application-name" content="Корпоративный университет" />
     <meta name="keywords" content="Лен, полиграф, маш, университет" />
     <meta name="author" content="IceSlam">
-    <title id="page-title">Информационно-аналитический блок &mdash; Корпоративный университет ЛенПолиграфМаш</title>
+    <title id="page-title">Настройки профиля &mdash; Корпоративный университет ЛенПолиграфМаш</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="icon" sizes="512x512" href="/assets/img/lpm_icon.svg">
     <link href="/assets/css/mdb.min.css" rel="stylesheet">
-    <link href="/assets/css/main.css" rel="stylesheet">
-    <link href="/assets/css/light.css" rel="stylesheet">
-    <link href="/assets/css/media.css" rel="stylesheet">
+    <link href="/assets/css/main.css?" rel="stylesheet">
+    <link href="/assets/css/light.css?" rel="stylesheet">
+    <link href="/assets/css/media.css?" rel="stylesheet">
   </head>
 
-  <body id="body" class="is-page is-infoanalit">
+  <body id="body" class="is-page is-settings">
     <div class="btn-group dropup">
       <button
         type="button"
@@ -71,7 +71,7 @@
       <nav id="navbar" class="navbar navbar-expand-lg navbar-dark is-navbar container-xl container-xxl">
         <div class="container-fluid">
           <a href="" onclick="history.back();return false;" class="btn is-btn__back ">
-            <i class="fas fa-chevron-left fa-2x"></i>
+            <i class="fas fa-arrow-left fa-2x"></i>
           </a>
           <a class="navbar-brand" href="./">
             <img src="/assets/img/lpm_logo.svg" alt="Корпоративный университет ЛенПолиграфМаш" class="img-fluid is-navbar__logo">
@@ -88,7 +88,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <menu class="navbar-nav mx-auto mb-2 mb-lg-0 is-menu">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./infoanalit.html">Информационно-аналитический блок</a>
+                <a class="nav-link" aria-current="page" href="./infoanalit.html">Информационно-аналитический блок</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contacts.html">Контакты</a>
@@ -133,68 +133,144 @@
       <div class="is-navbar__line-bottom container-xl container-xxl"></div>
     </header>
 
-    <main id="main" class="is-main">
+    <main class="is-main mb-5">
 
-      <section class="is-info container-xl container-xxl">
-        <div class="row">
-          <div class="col-md-8">
-            <p class="is-info__description">
-              Дистанционное обучение сегодня – один из удобнейших способов развить и преумножить профессиональные знания, а также развиться в интересующей области.
-            </p>
-          </div>
-        </div>
+      <section class="is-couses-info container-xl container-xxl mb-5">
+        <h2 class="text-center is-h2">
+          Настройки профиля
+        </h2>
         <div class="row mt-5">
-          <div class="col-md-6 row mb-5">
-              <div class="col-sm-1 col-md-1 is-info__analit-item__arrow-block">
-                <img src="./assets/img/lpm_infoanalit_arrow.svg" alt="" class="">
-              </div>
-              <div class="col-sm-11 col-md-11">
-                <h3 class="is-info__analit-item__title">
-                  Повышение квалификации
-                </h3>
-                <p class="is-info__analit-item__content">
-                  В данном блоке представлены онлайн-курсы повышения квалификации в различных областях профессиональной деятельнсоти.
-                </p>
-              </div>
+          <div class="col-lg-2 d-flex justify-content-center align-items-start">
+            <img src="./assets/img/settings_avatar_icon.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-md-6 row mb-5">
-              <div class="col-sm-1 col-md-1 is-info__analit-item__arrow-block">
-                <img src="./assets/img/lpm_infoanalit_arrow.svg" alt="" class="">
+          <div class="col-lg-7">
+            <div class="is-settings-profile pt-5 pb-5 mb-4">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Фамилия
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Первухина"
+                  aria-label="Первухина"
+                  aria-describedby="basic-addon1"
+                />
               </div>
-              <div class="col-sm-11 col-md-11">
-                <h3 class="is-info__analit-item__title">
-                  Повышение квалификации
-                </h3>
-                <p class="is-info__analit-item__content">
-                  В данном блоке представлены онлайн-курсы повышения квалификации в различных областях профессиональной деятельнсоти.
-                </p>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Имя
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Анна"
+                  aria-label="Анна"
+                  aria-describedby="basic-addon1"
+                />
               </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Отчество
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Алексеевна"
+                  aria-label="Алексеевна"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 mt-5">
+                <span class="input-group-text" id="basic-addon1">
+                  Организация
+                </span>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected disabled>Выберите место работы</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Отдел
+                </span>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected disabled>Выберите отдел</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Должность
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="специалист по персоналу"
+                  aria-label="специалист по персоналу"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 mt-5">
+                <span class="input-group-text" id="basic-addon1">
+                  Телефон
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="+79999999999"
+                  aria-label="+79999999999"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Email
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="mail@corpuni.lpm"
+                  aria-label="mail@corpuni.lpm"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                  Место работы
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="СПб, Набережная реки Карповки, 5А"
+                  aria-label="СПб, Набережная реки Карповки, 5А"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </div>
+            <a href="#" class="btn btn-block is-settings__btn-save">
+              Сохранить изменения
+            </a>
           </div>
-          <div class="col-md-6 row mb-5">
-              <div class="col-sm-1 col-md-1 is-info__analit-item__arrow-block">
-                <img src="./assets/img/lpm_infoanalit_arrow.svg" alt="" class="">
-              </div>
-              <div class="col-sm-11 col-md-11">
-                <h3 class="is-info__analit-item__title">
-                  Повышение квалификации
-                </h3>
-                <p class="is-info__analit-item__content">
-                  В данном блоке представлены онлайн-курсы повышения квалификации в различных областях профессиональной деятельнсоти.
-                </p>
-              </div>
-          </div>
-          <div class="col-md-6 row mb-5">
-              <div class="col-sm-1 col-md-1 is-info__analit-item__arrow-block">
-                <img src="./assets/img/lpm_infoanalit_arrow.svg" alt="" class="">
-              </div>
-              <div class="col-sm-11 col-md-11">
-                <h3 class="is-info__analit-item__title">
-                  Повышение квалификации
-                </h3>
-                <p class="is-info__analit-item__content">
-                  В данном блоке представлены онлайн-курсы повышения квалификации в различных областях профессиональной деятельнсоти.
-                </p>
-              </div>
+          <div class="col-lg-3">
+            <div class="is-settings-cats">
+              <a href="" class="btn btn-block mt-5 mb-5 text-white">
+                Роли
+              </a>
+              <a href="" class="btn btn-block mt-5 mb-5 text-white">
+                Мои курсы
+              </a>
+              <a href="" class="btn btn-block mt-5 mb-5 text-white">
+                Журнал
+              </a>
+              <a href="" class="btn btn-block mt-5 mb-5 text-white">
+                Безопасность
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -282,7 +358,7 @@
           <img src="/assets/img/home-icon.svg" alt="Домой">
           <span class="mt-1">Главная</span>
         </a>
-        <a href="/infoanalit.html" class="btn is-mobile__menu-link infoanalit active d-block">
+        <a href="/infoanalit.html" class="btn is-mobile__menu-link infoanalit d-block">
           <img src="/assets/img/infoanalit-icon.svg" alt="Информационно-аналитический блок">
           <span class="mt-1">Курсы</span>
         </a>
@@ -294,7 +370,7 @@
           <img src="/assets/img/contacts-icon.svg" alt="Контакты">
           <span class="mt-1">Контакты</span>
         </a>
-        <a onclick="sidebarToggle()" id="profile-toggle" class="btn is-mobile__menu-link profile d-block">
+        <a onclick="sidebarToggle()" id="profile-toggle" class="btn is-mobile__menu-link profile active d-block">
           <img src="/assets/img/profile-icon.svg" alt="Личный кабинет">
           <span class="mt-1">Профиль</span>
         </a>
@@ -330,7 +406,7 @@
                   </p>
                 </div>
                 <div class="is-sidebar__tab-content__profile-menu">
-                  <a href="#" class="btn is-sidebar__tab-content__profile-menu__btn">
+                  <a href="#" class="btn is-sidebar__tab-content__profile-menu__btn active">
                     <svg class="mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="12" cy="4" r="3.5" stroke="white"/>
                       <path d="M11.6952 12.3002L12 12.5345L12.3048 12.3002C15.2475 10.0377 19.1639 8.60826 23.5 8.50589V19.6019C19.0971 19.7018 15.0852 21.1174 12.0007 23.375C8.9151 21.1072 4.90245 19.7011 0.5 19.6019V8.50589C4.83606 8.60826 8.75246 10.0377 11.6952 12.3002Z" stroke="white"/>
