@@ -527,7 +527,8 @@
   /* Auth page */
 
   .is-auth .is-auth-info__title {
-    font-size: 1.4rem;
+    font-size: .75rem;
+    line-height: 1rem;
   }
 
   .is-auth .is-auth__btns {
@@ -537,6 +538,32 @@
   .is-auth .is-auth-btn {
     margin: 1rem auto;
     display: block;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 1rem;
+  }
+
+  .is-auth .is-auth-btn.reg {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+  }
+
+  .is-auth .is-auth-info__form-fields input.form-control {
+    border-radius: 50px;
+    border: 1px solid #fff !important;
+    text-align: left;
+    padding: 0rem 1.5rem;
+  }
+
+  .is-auth .is-auth-info__form-fields svg {
+    display: block;
+    margin-right: 1rem;
+    margin-top: 5px;
+  }
+
+  .is-auth .is-auth-info__form-fields .input-group-text {
+    display: none;
   }
 
 }

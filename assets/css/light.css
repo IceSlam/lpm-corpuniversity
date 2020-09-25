@@ -209,6 +209,23 @@
     transition: all .625s;
   }
 
+  .is-page.light.is-auth .is-auth-btn.reg {
+    border: 1px solid #2B2E33;
+    background: transparent;
+    color: #2B2E33;
+  }
+
+  .is-page.light.is-auth .is-auth-info__form-fields input.form-control {
+    border-radius: 50px;
+    border: 1px solid #2B2E33 !important;
+    text-align: left;
+    padding: 0rem 1.5rem;
+  }
+
+  .is-page.light.is-auth .is-auth-info__form-fields svg path {
+    stroke: #2B2E33;
+  }
+
   .is-page.light .is-header {
     background: url(../img/header_bg_mobile_light.svg);
     background-repeat: no-repeat;

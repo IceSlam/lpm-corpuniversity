@@ -764,6 +764,10 @@
   transition: all .625s;
 }
 
+.is-auth .is-auth-info__form-fields svg {
+  display: none;
+}
+
 .is-auth .is-auth-info__form-fields input:focus {
   outline: none !important;
   border: none !important;
