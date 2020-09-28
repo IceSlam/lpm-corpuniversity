@@ -800,3 +800,95 @@
 .is-auth .is-auth-btn.auth {
   color: #7355A6;
 }
+
+/* Cabinet page */
+
+.is-cabinet .is-cabinet__user-settings {
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.is-cabinet .is-cabinet__user-settings svg {
+  margin-right: 1rem;
+}
+
+.is-cabinet .is-cabinet__user-info {
+  margin-top: 1rem;
+}
+
+.is-cabinet .is-cabinet__user-info p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.is-cabinet .is-cabinet__user-info p.fname {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 19px;
+}
+
+.is-cabinet .is-cabinet__user-info p.lname {
+  font-weight: 600;
+}
+
+.is-cabinet .is-cabinet__user-info p.company {
+  font-size: 12px;
+}
+
+.is-cabinet .is-cabinet__user-events .is-icon__block {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.is-cabinet .is-cabinet__user-events .is-icon__block .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.is-cabinet .is-cabinet__user-events .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.is-cabinet .is-cabinet__user-events .btn.notifications,
+.is-cabinet .is-cabinet__user-events .btn.events {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.is-cabinet .is-cabinet__user-events .btn.notifications .badge {
+  background: #528B8F;
+}
+
+.is-cabinet .is-cabinet__user-events .btn.events .badge {
+  background: #7355A6;
+}
