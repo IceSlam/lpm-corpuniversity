@@ -892,3 +892,14 @@
 .is-cabinet .is-cabinet__user-events .btn.events .badge {
   background: #7355A6;
 }
+
+.is-cabinet .is-cabinet-role .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}

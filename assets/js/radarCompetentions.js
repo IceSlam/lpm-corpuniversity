@@ -7,12 +7,15 @@ var competitionRadar = {
     backgroundColor: "rgba(115, 85, 166, .5)",
     borderColor: "rgba(115, 85, 166, 1)",
     data: [20, 80, 60, 50, 90, 50, 70, 40],
-    lineWidth: 1
+    borderWidth: 2,
+    pointStyle: 'line'
   }, {
     label: "Курс 2",
     backgroundColor: "rgba(82, 139, 143, .5)",
     borderColor: "rgba(82, 139, 143, 1)",
-    data: [70, 40, 80, 50, 10, 40, 50, 90]
+    data: [70, 40, 80, 50, 10, 40, 50, 90],
+    borderWidth: 2,
+    pointStyle: 'line'
   }]
 };
 
