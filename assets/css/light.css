@@ -194,6 +194,19 @@
   color: #fff;
 }
 
+.is-page.light.is-cabinet .is-cabinet__user-settings,
+.is-page.light.is-cabinet .is-cabinet-role .btn,
+.is-page.light.is-cabinet .is-cabinet__user-events .btn
+ {
+  color: #2B2E33 !important;
+}
+
+.is-page.light.is-cabinet .is-cabinet__user-settings svg path,
+.is-page.light.is-cabinet .is-cabinet__user-events .btn svg path,
+.is-page.light.is-cabinet .is-cabinet-role .btn svg path,
+.is-page.light.is-cabinet .is-cabinet-role .btn svg rect {
+  stroke: #2B2E33;
+}
 
 /* Media Queries */
 
