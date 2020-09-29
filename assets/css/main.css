@@ -932,7 +932,8 @@
 
 /* Journal page */
 
-.is-journal .is-journal-info__header .title {
+.is-journal .is-journal-info__header .title,
+.is-course .is-course-info__header .title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -941,7 +942,8 @@
   margin-left: 2rem;
 }
 
-.is-journal .is-journal-info__header .btn {
+.is-journal .is-journal-info__header .btn,
+.is-course .is-course-info__header .btn {
   -webkit-box-shadow: none;
   box-shadow: none;
   position: relative;
@@ -957,7 +959,8 @@
   height: 32px;
 }
 
-.is-journal .is-journal-info__header .btn .badge {
+.is-journal .is-journal-info__header .btn .badge,
+.is-course .is-course-info__header .btn .badge {
   position: absolute;
   top: -2px;
   right: -2px;
@@ -965,7 +968,8 @@
   border-radius: 50%;
 }
 
-.is-journal .is-journal-info__header-form {
+.is-journal .is-journal-info__header-form,
+.is-course .is-course-info__header-form {
   background: rgba(255,255,255,.25);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
@@ -973,19 +977,22 @@
   max-width: 90%;
 }
 
-.is-journal .is-journal-info__header-form__btn {
+.is-journal .is-journal-info__header-form__btn,
+.is-course .is-course-info__header-form__btn {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 8px 12px;
   background: transparent !important;
 }
 
-.is-journal .is-journal-info__header-form__btn img {
+.is-journal .is-journal-info__header-form__btn img,
+.is-course .is-course-info__header-form__btn img {
   width: 12px;
   height: 12px;
 }
 
-.is-journal .is-journal-info__header-form__input {
+.is-journal .is-journal-info__header-form__input,
+.is-course .is-course-info__header-form__input {
   border-radius: 2rem;
   background-color: transparent;
   font-size: 12px;
@@ -996,7 +1003,8 @@
   border-bottom-left-radius: 2rem !important;
 }
 
-.is-journal .is-journal-info__header-form__input::placeholder {
+.is-journal .is-journal-info__header-form__input::placeholder,
+.is-course .is-course-info__header-form__input::placeholder {
   color: #fff;
 }
 
@@ -1066,7 +1074,8 @@
   background: rgba(82, 139, 143, 0.25);
 }
 
-.is-journal .is-journal-info__header {
+.is-journal .is-journal-info__header,
+.is-course .is-course-info__header {
   position: relative;
 }
 
@@ -1107,11 +1116,48 @@
   opacity: 1;
 }
 
-.is-journal .is-journal__sidebar-btn {
+.is-journal .is-journal__sidebar-btn,
+.is-course .is-journal__sidebar-btn {
   width: auto !important;
   height: 32px;
   padding: 0 .5rem !important;
   border-radius: 32px !important;
   background: transparent !important;
   margin-right: 1rem;
+}
+
+/* Course page */
+
+.is-course .is-course__card {
+  background: #2B2E33;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 4rem;
+}
+
+.is-course .is-course__card .title {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.is-course .is-course__card .material-list p,
+.is-course .is-course__card .tasks-list p {
+  opacity: .5;
+  margin-top: .5rem;
+}
+
+.is-course .is-course__card .material-list p svg,
+.is-course .is-course__card .tasks-list p svg {
+  margin-right: 1rem;
+}
+
+.is-course .is-course__card .material-list .list-unstyled,
+.is-course .is-course__card .tasks-list .list-unstyled {
+  margin-left: 4rem;
+  opacity: .5;
 }
