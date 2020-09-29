@@ -1135,6 +1135,10 @@
   padding: 4rem;
 }
 
+.is-course .is-course__card.active {
+  border: 1px solid #fff;
+}
+
 .is-course .is-course__card .title {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -1145,10 +1149,19 @@
   line-height: 19px;
 }
 
+.is-course .is-course__card.active .title {
+  color: rgba(255, 255, 255, 1);
+}
+
 .is-course .is-course__card .material-list p,
 .is-course .is-course__card .tasks-list p {
   opacity: .5;
   margin-top: .5rem;
+}
+
+.is-course .is-course__card.active .material-list p,
+.is-course .is-course__card.active .tasks-list p {
+  opacity: 1;
 }
 
 .is-course .is-course__card .material-list p svg,
@@ -1160,4 +1173,44 @@
 .is-course .is-course__card .tasks-list .list-unstyled {
   margin-left: 4rem;
   opacity: .5;
+}
+
+.is-course .is-course__card.active .material-list .list-unstyled,
+.is-course .is-course__card.active .tasks-list .list-unstyled {
+  opacity: 1;
+}
+
+.is-course .is-cource-details__info .is-course__card {
+  padding: 1rem 2rem !important;
+}
+
+.is-course .is-course__card .teacher {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: .5rem;
+}
+
+.is-course .is-course__card .teacher-name {
+  margin-bottom: 0;
+}
+
+.is-course .is-course__card .teacher-position,
+.is-course .is-course__card .teacher-company {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.is-course .is-course__card .teacher-message {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+}
+
+.is-course .is-course__card .teacher-message svg {
+  margin-right: 1rem;
 }
