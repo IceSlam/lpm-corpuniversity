@@ -1,5 +1,5 @@
 var updated = [
-"https://lpm.onereq.ml/sw.js"
+"https://99.al-dev.ru/sw.js"
 ];
 const version = "1.17.1";
 const CACHE = "lpm-cache" + version;
