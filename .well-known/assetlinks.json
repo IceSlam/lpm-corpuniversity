@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.onerequest.revisor",
+    "sha256_cert_fingerprints":
+    ["39:4A:49:90:09:3C:8B:1C:B7:AE:18:6B:BE:60:DC:7A:2C:9A:BD:CF:63:A1:56:8E:6D:9B:89:96:4B:9D:90:5F"]
+  }
+}]
