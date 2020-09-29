@@ -204,7 +204,8 @@
 .is-page.light.is-cabinet .is-cabinet__user-settings svg path,
 .is-page.light.is-cabinet .is-cabinet__user-events .btn svg path,
 .is-page.light.is-cabinet .is-cabinet-role .btn svg path,
-.is-page.light.is-cabinet .is-cabinet-role .btn svg rect {
+.is-page.light.is-cabinet .is-cabinet-role .btn svg rect,
+.is-page.light #burger path {
   stroke: #2B2E33;
 }
 
@@ -220,6 +221,16 @@
 .is-page.light.is-journal .is-journal-data table th,
 .is-page.light.is-journal .is-journal-data table td {
   color: #2B2E33;
+}
+
+.is-page.light #is-journal-sidebar {
+  background: #f3f3f3;
+  -webkit-box-shadow: 15px 0px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 15px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.is-page.light #is-journal-sidebar svg path {
+  stroke: #2B2E33;
 }
 
 /* Media Queries */
