@@ -208,6 +208,20 @@
   stroke: #2B2E33;
 }
 
+.is-page.light.is-journal .is-journal-info__export .btn .text {
+  color: #2B2E33;
+  transition: all .625s;
+}
+
+.is-page.light.is-journal .is-journal-info__header-form {
+  background: rgba(0,0,0,.25);
+}
+
+.is-page.light.is-journal .is-journal-data table th,
+.is-page.light.is-journal .is-journal-data table td {
+  color: #2B2E33;
+}
+
 /* Media Queries */
 
 
