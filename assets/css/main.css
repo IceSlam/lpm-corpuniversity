@@ -1065,3 +1065,53 @@
 .is-journal .is-journal-data table tbody tr td:last-child {
   background: rgba(82, 139, 143, 0.25);
 }
+
+.is-journal .is-journal-info__header {
+  position: relative;
+}
+
+#is-journal-sidebar {
+  margin-top: 3.75rem;
+  display: block;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  background: #2B2E33;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  box-shadow: 15px 0px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease-out;
+  opacity: 0;
+  border-radius: 32px;
+}
+
+#is-journal-sidebar.show {
+  width: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: all .625s ease-in-out;
+  opacity: 1;
+  display: inline-table;
+}
+
+#is-journal-sidebar .btn {
+  background: transparent !important;
+  opacity: .5;
+  margin: 1.25rem auto;
+}
+
+#is-journal-sidebar .btn.active {
+  opacity: 1;
+}
+
+.is-journal .is-journal__sidebar-btn {
+  width: auto !important;
+  height: 32px;
+  padding: 0 .5rem !important;
+  border-radius: 32px !important;
+  background: transparent !important;
+  margin-right: 1rem;
+}
