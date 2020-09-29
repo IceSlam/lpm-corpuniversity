@@ -214,7 +214,8 @@
   transition: all .625s;
 }
 
-.is-page.light.is-journal .is-journal-info__header-form {
+.is-page.light.is-journal .is-journal-info__header-form,
+.is-page.light.is-course .is-course-info__header-form {
   background: rgba(0,0,0,.25);
 }
 
@@ -230,6 +231,18 @@
 }
 
 .is-page.light #is-journal-sidebar svg path {
+  stroke: #2B2E33;
+}
+
+.is-page.light.is-course .is-course__card {
+  background: #f3f3f3;
+}
+
+.is-page.light.is-course .is-course__card .btn {
+  color: #2B2E33 !important;
+}
+
+.is-page.light.is-course .is-course__card svg path {
   stroke: #2B2E33;
 }
 
