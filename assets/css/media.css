@@ -578,6 +578,19 @@
     display: none;
   }
 
+  .is-course .is-course__card {
+    padding: 2rem;
+  }
+
+  .is-course .is-course__card .material-list .list-unstyled,
+  .is-course .is-course__card .tasks-list .list-unstyled {
+    margin-left: 1rem;
+  }
+
+  .is-course .is-course__card .course-timing .btn {
+    font-size: .75rem !important;
+  }
+
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
