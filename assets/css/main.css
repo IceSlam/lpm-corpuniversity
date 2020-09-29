@@ -1026,3 +1026,41 @@
   color: #fff;
   font-size: 1rem;
 }
+
+.is-journal tbody,
+.is-journal tfoot,
+.is-journal th,
+.is-journal thead {
+    border: 0 solid;
+}
+
+.is-journal .is-journal-data table thead tr th {
+  color: #fff;
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  font-size: .85rem;
+}
+
+.is-journal .is-journal-data table tbody tr {
+  border: 0 solid;
+  border-top: 0 solid;
+  border-bottom: 0 solid;
+  margin-top: 1rem;
+}
+
+.is-journal .is-journal-data table tbody tr:nth-child(2n-1) {
+  background: rgba(82, 139, 143, 0.1);
+}
+
+.is-journal .is-journal-data table tbody tr td {
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: .75rem;
+  border-bottom: 0 solid;
+}
+
+.is-journal .is-journal-data table tbody tr td:last-child {
+  background: rgba(82, 139, 143, 0.25);
+}
